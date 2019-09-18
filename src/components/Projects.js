@@ -1,14 +1,13 @@
 import React from 'react'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
-
 class Projects extends React.Component {
 
   render() {
     return (
       <section className="section">
-        <div className="hero-body">
+        <div className="hero-body-2">
           <div className="container">
-            <div className="title is-1">Projects</div>
+            <h1 className="title is-1 has-text-centered" id="title">Projects</h1>
             <div>
 
             </div>

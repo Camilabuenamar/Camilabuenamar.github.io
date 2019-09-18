@@ -4,7 +4,7 @@
 * {
   color: #373737;
   font-family: 'Montserrat', sans-serif;
-  height: 100%
+  height: 100%;
 }
 
 section.section {
@@ -12,15 +12,48 @@ section.section {
   height: 100%;
 }
 
-.hero-body-inverted {
+// Background images
+
+.hero-body-1 {
   background: url(https://imgur.com/PoeNST3.jpg) no-repeat 0 0 fixed;
   background-size: 100% 100%;
 }
-.hero-body {
+.hero-body-2 {
   background: url(https://imgur.com/4jMghQx.jpg) no-repeat 0 0 fixed;
   background-size: 100% 100%;
 }
+.hero-body-3 {
+  background: url(https://imgur.com/SZOELQF.jpg) no-repeat 0 0 fixed;
+  background-size: 100% 100%;
+}
+.hero-body-4 {
+  background: url(https://imgur.com/oLwzXDX.jpg) no-repeat 0 0 fixed;
+  background-size: 100% 100%;
+}
 
+//Navbar
+.sidebar-section {
+  height: 100%; /* 100% Full-height */
+  width: 20%; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.nav-section {
+  writing-mode: vertical-rl;
+  font-weight: 500;
+  width: 20%;
+  margin-top: 10%;
+  margin-right: 10%;
+}
+
+// intro div
 .column .my-picture{
   justify-content: center;
   align-items: center;
@@ -31,7 +64,7 @@ section.section {
   border: 25px solid white;
   position: relative;
   margin-left: 30%;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 .name {
@@ -39,8 +72,28 @@ section.section {
   .title,  .subtitle {
     height: auto;
   }
+  padding-right: 55px;
+  #camila {
+    margin-bottom: 0;
+  }
 }
 
 .title.is-1 {
-  margin-bottom: 0;
+  margin-bottom: 4%;
+}
+
+// About me div
+
+p {
+  height: min-content !important;
+}
+
+img .picture {
+  margin: auto;
+}
+
+// projects div
+
+#title {
+  padding-top: 5%;
 }
