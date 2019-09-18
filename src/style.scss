@@ -4,27 +4,21 @@
 * {
   color: #373737;
   font-family: 'Montserrat', sans-serif;
+  height: 100%
 }
 
 section.section {
   padding: 0;
+  height: 100%;
 }
 
-.hero-background {
-  position: absolute;
-  object-fit: cover;
-  object-position: center center;
-  width: 100%;
-  top: 0;
-  left: 0;
+.hero-body-inverted {
+  background: url(https://imgur.com/PoeNST3.jpg) no-repeat 0 0 fixed;
+  background-size: 100% 100%;
 }
-
-.inverted {
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
+.hero-body {
+  background: url(https://imgur.com/4jMghQx.jpg) no-repeat 0 0 fixed;
+  background-size: 100% 100%;
 }
 
 .column .my-picture{
@@ -42,7 +36,11 @@ section.section {
 
 .name {
   padding-top: 15%;
-  .title.is-1 {
-    margin-bottom: 0;
+  .title,  .subtitle {
+    height: auto;
   }
+}
+
+.title.is-1 {
+  margin-bottom: 0;
 }

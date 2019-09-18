@@ -1,4 +1,5 @@
 import React from 'react'
+import Projects from './Projects.js'
 
 
 class Home extends React.Component {
@@ -6,8 +7,7 @@ class Home extends React.Component {
   render() {
     return (
       <section className="section">
-        <img alt="Home image" className="hero-background inverted" src="https://imgur.com/4jMghQx.jpg" />
-        <div className="hero-body">
+        <div className="hero-body-inverted">
           <div className="container">
             <div className="columns">
               <div className="column my-picture">
@@ -23,6 +23,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
+        <Projects/>
       </section>
     )
   }
