@@ -1,7 +1,48 @@
+@import 'bulma';
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,800&display=swap');
 
 * {
   color: #373737;
-  background-color: #eacec5;
   font-family: 'Montserrat', sans-serif;
+}
+
+section.section {
+  padding: 0;
+}
+
+.hero-background {
+  position: absolute;
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.inverted {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.column .my-picture{
+  justify-content: center;
+  align-items: center;
+}
+
+.picture {
+  width: 50%;
+  border: 25px solid white;
+  position: relative;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+.name {
+  padding-top: 15%;
+  .title.is-1 {
+    margin-bottom: 0;
+  }
 }
