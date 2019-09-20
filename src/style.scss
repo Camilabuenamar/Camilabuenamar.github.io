@@ -12,6 +12,9 @@ section.section {
   height: 100%;
 }
 
+.column {
+  height: 80%;
+}
 // Background images
 
 .hero-body-1 {
@@ -84,11 +87,14 @@ section.section {
 
 // About me div
 
+.image-column {
+}
+
 p {
   height: min-content !important;
 }
 
-img .picture {
+#camila-picture {
   margin: auto;
 }
 
@@ -96,4 +102,43 @@ img .picture {
 
 #title {
   padding-top: 5%;
+}
+
+// Skills
+
+i {
+  font-size: 5rem;
+  width: 5rem;
+  padding: 50px;
+}
+
+#skills-picture {
+  height: 75%;
+  margin: auto;
+}
+
+// contact
+
+h3 {
+  height: min-content !important;
+}
+
+.buttons.is-centered {
+  height: min-content !important;
+}
+
+a .link-to-contact{
+  height: min-content !important;
+  .button {
+    font-weight: 500;
+  }
+}
+
+#contact-me {
+  margin: 15%;
+  height: 50%;
+  background-color: #373737;
+  .title.is-4{
+    color: #e8cdc6;
+  }
 }

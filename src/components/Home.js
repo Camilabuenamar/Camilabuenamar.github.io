@@ -1,6 +1,8 @@
 import React from 'react'
 import Projects from './Projects.js'
 import AboutMe from './AboutMe.js'
+import Skills from './Skills.js'
+import Contact from './Contact.js'
 
 
 class Home extends React.Component {
@@ -15,17 +17,19 @@ class Home extends React.Component {
                 <img className="picture" src="https://imgur.com/j3Q6Wu0.jpg" />
               </div>
               <div className="column name">
-                <div className="title is-1" id="camila">CAMILA</div>
-                <div className="title is-2">BUENAVENTURA MÁRQUEZ</div>
-                <div className="subtitle is-2">
+                <p className="title is-1" id="camila">CAMILA</p>
+                <p className="title is-2">BUENAVENTURA MÁRQUEZ</p>
+                <p className="subtitle is-2">
                   Business and Web Development
-                </div>
+                </p>
               </div>
             </div>
           </div>
         </div>
         <AboutMe/>
         <Projects/>
+        <Skills/>
+        <Contact/>
       </section>
     )
   }
