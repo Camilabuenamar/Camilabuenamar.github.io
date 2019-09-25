@@ -8,27 +8,6 @@ const projectOne = {
   'github': 'https://github.com/Camilabuenamar/project-01',
   'link': 'http://camilabuenamar.com/project-01/'
 }
-const projectTwo = {
-  'image': 'https://imgur.com/RpKrF55.jpg',
-  'name': 'El Camello',
-  'description': 'An APP to find jobs and networking events using public APIs. <br /> Tech: HTML5, CSS, Bulma, JavaScript, React, Webpack, Axios, Babel and Lodash. <br /> Time: 2 days (pair project)',
-  'github': 'https://github.com/Camilabuenamar/project-02',
-  'link': 'http://camilabuenamar.com/project-02/'
-}
-const projectThree = {
-  'image': 'https://imgur.com/Yhdv2hk.jpg',
-  'name': 'Burgerrator',
-  'description': 'A MERN stack App to find and rate the best burgers. <br /> Tech: HTML5, CSS, Bulma, JavaScript, React, Node.js, Express, MongoDB & Mongoose. <br /> Time: 1 week (group of four)',
-  'github': 'https://github.com/Camilabuenamar/project-03',
-  'link': 'http://camilabuenamar.com/project-03/'
-}
-const projectFour = {
-  'image': 'https://imgur.com/P4PKrQu.jpg',
-  'name': 'ADA',
-  'description': 'A Hiring App for women developers in gender responsible companies. <br /> Tech: HTML5, CSS, Python, Django, Bulma, JavaScript & React. <br /> Time: 1 week (solo project)',
-  'github': 'https://github.com/Camilabuenamar/project-04',
-  'link': 'http://camilabuenamar.com/project-04/'
-}
 
 class Projects extends React.Component {
 
@@ -42,40 +21,53 @@ class Projects extends React.Component {
   }
 
   changeProject(e){
-    const projectOne = {
-      'image': 'https://imgur.com/gLngRsr.jpg',
-      'name': 'Project 1',
-      'description': 'A vanilla JavaScript grid base game inspired in frogger to encourage little girls to study stem careers. <br /> Tech: HTML5, CSS3 and JavaScript. <br /> Time: 1 week (solo project)',
-      'github': 'https://github.com/Camilabuenamar/project-01',
-      'link': 'http://camilabuenamar.com/project-01/'
+    let project = projectOne
+    switch (e.target.value) {
+      case 'projectOne':
+        project = {
+          'image': 'https://imgur.com/gLngRsr.jpg',
+          'name': 'Project 1',
+          'description': 'A vanilla JavaScript grid base game inspired in frogger to encourage little girls to study stem careers. <br /> Tech: HTML5, CSS3 and JavaScript. <br /> Time: 1 week (solo project)',
+          'github': 'https://github.com/Camilabuenamar/project-01',
+          'link': 'http://camilabuenamar.com/project-01/'
+        }
+        this.setState({ project: project })
+        break
+      case 'projectTwo':
+        project = {
+          'image': 'https://imgur.com/RpKrF55.jpg',
+          'name': 'El Camello',
+          'description': 'An APP to find jobs and networking events using public APIs. <br /> Tech: HTML5, CSS, Bulma, JavaScript, React, Webpack, Axios, Babel and Lodash. <br /> Time: 2 days (pair project)',
+          'github': 'https://github.com/Camilabuenamar/project-02',
+          'link': 'http://camilabuenamar.com/project-02/'
+        }
+        this.setState({ project: project })
+        break
+      case 'projectThree':
+        project = {
+          'image': 'https://imgur.com/Yhdv2hk.jpg',
+          'name': 'Burgerrator',
+          'description': 'A MERN stack App to find and rate the best burgers. <br /> Tech: HTML5, CSS, Bulma, JavaScript, React, Node.js, Express, MongoDB & Mongoose. <br /> Time: 1 week (group of four)',
+          'github': 'https://github.com/Camilabuenamar/project-03',
+          'link': 'http://camilabuenamar.com/project-03/'
+        }
+        this.setState({ project: project })
+        break
+      case 'projectFour':
+        project = {
+          'image': 'https://imgur.com/P4PKrQu.jpg',
+          'name': 'ADA',
+          'description': 'A Hiring App for women developers in gender responsible companies. <br /> Tech: HTML5, CSS, Python, Django, Bulma, JavaScript & React. <br /> Time: 1 week (solo project)',
+          'github': 'https://github.com/Camilabuenamar/project-04',
+          'link': 'http://camilabuenamar.com/project-04/'
+        }
+        this.setState({ project: project })
+        break
     }
-    const projectTwo = {
-      'image': 'https://imgur.com/RpKrF55.jpg',
-      'name': 'El Camello',
-      'description': 'An APP to find jobs and networking events using public APIs. <br /> Tech: HTML5, CSS, Bulma, JavaScript, React, Webpack, Axios, Babel and Lodash. <br /> Time: 2 days (pair project)',
-      'github': 'https://github.com/Camilabuenamar/project-02',
-      'link': 'http://camilabuenamar.com/project-02/'
-    }
-    const projectThree = {
-      'image': 'https://imgur.com/Yhdv2hk.jpg',
-      'name': 'Burgerrator',
-      'description': 'A MERN stack App to find and rate the best burgers. <br /> Tech: HTML5, CSS, Bulma, JavaScript, React, Node.js, Express, MongoDB & Mongoose. <br /> Time: 1 week (group of four)',
-      'github': 'https://github.com/Camilabuenamar/project-03',
-      'link': 'http://camilabuenamar.com/project-03/'
-    }
-    const projectFour = {
-      'image': 'https://imgur.com/P4PKrQu.jpg',
-      'name': 'ADA',
-      'description': 'A Hiring App for women developers in gender responsible companies. <br /> Tech: HTML5, CSS, Python, Django, Bulma, JavaScript & React. <br /> Time: 1 week (solo project)',
-      'github': 'https://github.com/Camilabuenamar/project-04',
-      'link': 'http://camilabuenamar.com/project-04/'
-    }
-    const showProject = e.target.value
-    this.setState({ project: showProject})
-    console.log(this.state.project.name)
   }
 
   render() {
+    console.log(name)
     return (
       <section className="section">
         <div className="hero-body-1">
