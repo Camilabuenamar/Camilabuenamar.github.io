@@ -83,6 +83,7 @@ section.section {
 
 .title.is-1 {
   margin-bottom: 4%;
+  padding-top: 5%;
 }
 
 // About me div
@@ -100,8 +101,13 @@ p {
 
 // projects div
 
-#title {
-  padding-top: 5%;
+#project-columns {
+  height: 60%;
+}
+
+.buttons {
+  height: min-content !important;
+  
 }
 
 // Skills

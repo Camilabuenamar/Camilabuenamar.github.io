@@ -5,9 +5,9 @@ class Projects extends React.Component {
   render() {
     return (
       <section className="section">
-        <div className="hero-body-2">
+        <div className="hero-body-1">
           <div className="container">
-            <p className="title is-1 has-text-centered" id="title">Get in contact</p>
+            <p className="title is-1 has-text-centered" id="contact">Get in contact</p>
             <div className="column is-three-quarters" id="contact-me">
               <h3 className=" title is-4 has-text-centered">Email Address</h3>
               <div className="buttons is-centered">

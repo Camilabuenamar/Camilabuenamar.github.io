@@ -26,10 +26,10 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-        <AboutMe/>
-        <Projects/>
-        <Skills/>
-        <Contact/>
+        <AboutMe />
+        <Projects />
+        <Skills />
+        <Contact />
       </section>
     )
   }
