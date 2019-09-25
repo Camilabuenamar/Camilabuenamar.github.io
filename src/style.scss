@@ -1,5 +1,5 @@
 @import 'bulma';
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700,800&display=swap');
 
 * {
   color: #373737;
@@ -50,7 +50,7 @@ section.section {
 
 .nav-section {
   writing-mode: vertical-rl;
-  font-weight: 500;
+  font-weight: 100;
   width: 20%;
   margin-top: 10%;
   margin-right: 10%;
@@ -58,8 +58,9 @@ section.section {
 
 // intro div
 .column .my-picture{
-  justify-content: center;
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .picture {
@@ -88,9 +89,6 @@ section.section {
 
 // About me div
 
-.image-column {
-}
-
 p {
   height: min-content !important;
 }
@@ -101,13 +99,37 @@ p {
 
 // projects div
 
+.image-screenshot {
+  box-shadow: 10px 12px 0.5rem rgba(0,0,0,0.5);
+  // box-shadow: -47px -29px 0px 0px #e8cdc6;
+}
+
 #project-columns {
   height: 60%;
+  margin: auto;
+  .detail {
+    margin: auto;
+  }
+  .screenshot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .subtitle .is-4 {
+    font-weight: 600;
+  }
+  .tag {
+   margin-left: 5px;
+   margin-bottom: 5px;
+  }
+  .icon .is-medium {
+    margin-left: 10px;
+  }
 }
 
 .buttons {
   height: min-content !important;
-  
+
 }
 
 // Skills
@@ -116,6 +138,12 @@ i {
   font-size: 5rem;
   width: 5rem;
   padding: 50px;
+}
+
+image-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #skills-picture {

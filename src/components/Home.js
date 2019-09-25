@@ -17,10 +17,10 @@ class Home extends React.Component {
                 <img className="picture" src="https://imgur.com/j3Q6Wu0.jpg" />
               </div>
               <div className="column name">
-                <p className="title is-1" id="camila">CAMILA</p>
-                <p className="title is-2">BUENAVENTURA MÁRQUEZ</p>
+                <p className="title is-1 has-text-weight-bold" id="camila">CAMILA</p>
+                <p className="title is-2 has-text-weight-bold">BUENAVENTURA MÁRQUEZ</p>
                 <p className="subtitle is-2">
-                  Business and Web Development
+                  BUSINESS AND WEB DEVELOPMENT
                 </p>
               </div>
             </div>

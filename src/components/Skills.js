@@ -9,11 +9,11 @@ class Projects extends React.Component {
           <div className="container">
             <p className="title is-1 has-text-centered" id="skills">Skills</p>
             <div className="columns">
-              <div className="column is-two-fifths">
+              <div className="column image-column is-two-fifths">
                 <img className="image"id="skills-picture" src="https://imgur.com/R0lynw1.jpg" />
               </div>
               <div className="column logos">
-                <p> <br /> <br />
+                <p id="logos"> <br /> <br />
                   <i className="devicon-html5-plain-wordmark icon is-large"/>
                   <i className="devicon-css3-plain-wordmark icon is-large"/>
                   <i className="devicon-javascript-plain icon is-large"/>
