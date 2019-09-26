@@ -97,6 +97,26 @@ p {
   margin: auto;
 }
 
+.column .image-column {
+  flex-direction: column;
+}
+
+.education-info, .experience-info {
+  height: 28% !important;
+}
+
+#no-bottom-margin {
+ margin-bottom: 0;
+}
+
+#education, #experience {
+  height: 15%;
+  width: 60%;
+  overflow-y: scroll;
+  position: absolute;
+  max-width: 60%;
+}
+
 // projects div
 
 .image-screenshot {
@@ -105,6 +125,7 @@ p {
 }
 
 #project-columns {
+  justify-content: space-around;
   height: 60%;
   margin: auto;
   .detail {
@@ -114,6 +135,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 5%;
   }
   .subtitle .is-4 {
     font-weight: 600;
@@ -169,8 +191,9 @@ a .link-to-contact{
 }
 
 #contact-me {
-  margin: 15%;
-  height: 50%;
+  margin: auto;
+  width: 60%;
+  height: 60%;
   background-color: #373737;
   .title.is-4{
     color: #e8cdc6;

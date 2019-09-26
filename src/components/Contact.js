@@ -9,17 +9,18 @@ class Projects extends React.Component {
           <div className="container">
             <p className="title is-1 has-text-centered" id="contact">Get in contact</p>
             <div className="column is-three-quarters" id="contact-me">
+              <br /> <br />
               <h3 className=" title is-4 has-text-centered">Email Address</h3>
               <div className="buttons is-centered">
-                <a href="mailto:camila.buenamar@gmail.com" className="link-to-contact button">Camila.buenamar@gmail.com</a>
+                <a href="mailto:camila.buenamar@gmail.com" className="link-to-contact button is-dark" rel="noopener noreferrer" target="_blank">Camila.buenamar@gmail.com</a>
               </div>
               <h3 className="title is-4 has-text-centered">Github</h3>
               <div className="buttons is-centered">
-                <a href="https://github.com/Camilabuenamar" className="link-to-contact button is-centered">Camilabuenamar</a>
+                <a href="https://github.com/Camilabuenamar" className="link-to-contact button is-dark is-centered" rel="noopener noreferrer" target="_blank">Camilabuenamar</a>
               </div>
               <h3 className="title is-4 has-text-centered">LinkedIn</h3>
               <div className="buttons is-centered">
-                <a href="https://www.linkedin.com/in/camilabuenamar/" className="link-to-contact button is-centered">Camila Buenaventura Marquez</a>
+                <a href="https://www.linkedin.com/in/camilabuenamar/" className="link-to-contact button is-dark is-centered" rel="noopener noreferrer" target="_blank">Camila Buenaventura Marquez</a>
               </div>
             </div>
           </div>

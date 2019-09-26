@@ -19,7 +19,7 @@ class Home extends React.Component {
               <div className="column name">
                 <p className="title is-1 has-text-weight-bold" id="camila">CAMILA</p>
                 <p className="title is-2 has-text-weight-bold">BUENAVENTURA MÁRQUEZ</p>
-                <p className="subtitle is-2">
+                <p className="subtitle is-3">
                   BUSINESS AND WEB DEVELOPMENT
                 </p>
               </div>

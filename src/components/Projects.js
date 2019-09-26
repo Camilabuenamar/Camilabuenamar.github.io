@@ -3,7 +3,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 const projectOne = {
   'image': 'https://imgur.com/gLngRsr.jpg',
-  'name': 'Project 1',
+  'name': 'Wonder Women',
   'description': 'A vanilla JavaScript grid base game inspired in frogger to encourage little girls to study stem careers.',
   'tech': ['HTML5', 'CSS3', 'JavaScript'],
   'time': '1 week (solo project)',
@@ -28,7 +28,7 @@ class Projects extends React.Component {
       case 'projectOne':
         project = {
           'image': 'https://imgur.com/gLngRsr.jpg',
-          'name': 'Project 1',
+          'name': 'Wonder Women',
           'description': 'A vanilla JavaScript grid base game inspired in frogger to encourage little girls to study stem careers.',
           'tech': ['HTML5', 'CSS3', 'JavaScript'],
           'time': '1 week (solo project)',
@@ -82,11 +82,11 @@ class Projects extends React.Component {
         <div className="hero-body-1">
           <div className="container">
             <p className="title is-1 has-text-centered" id="projects">Projects</p>
-            <div className="columns" id="project-columns">
+            <div className="columns is-3" id="project-columns">
               <div className="column screenshot is-two-fifths">
                 <img src={this.state.project.image} alt={this.state.project.name} className="image-screenshot"/>
               </div>
-              <div className="column detail is-half">
+              <div className="column detail is-two-fifths">
                 <p className="title is-3">{this.state.project.name.toUpperCase()}</p>
                 <p className="subtitle is-4">{this.state.project.description.toUpperCase()}</p>
                 <p className="subtitle is-4"><span className="has-text-weight-semibold">Tools: </span> <br /> {this.state.project.tech.map(tech => <div className="tag is-medium" key={tech}> {tech} </div>)} </p>
@@ -98,10 +98,10 @@ class Projects extends React.Component {
               </div>
             </div>
             <div className="buttons is-centered">
-              <button className="button is-rounded is-dark is-small" value="projectOne" onClick={this.changeProject}></button>
-              <button className="button is-rounded is-dark is-small" value="projectTwo" onClick={this.changeProject}></button>
-              <button className="button is-rounded is-dark is-small" value="projectThree" onClick={this.changeProject}></button>
-              <button className="button is-rounded is-dark is-small" value="projectFour" onClick={this.changeProject}></button>
+              <button className="button is-rounded is-white is-inverted is-outlined is-small" value="projectOne" onClick={this.changeProject}></button>
+              <button className="button is-rounded is-white is-inverted is-outlined is-small" value="projectTwo" onClick={this.changeProject}></button>
+              <button className="button is-rounded is-white is-inverted is-outlined is-small" value="projectThree" onClick={this.changeProject}></button>
+              <button className="button is-rounded is-white is-inverted is-outlined is-small" value="projectFour" onClick={this.changeProject}></button>
             </div>
           </div>
         </div>
