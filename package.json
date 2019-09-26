@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/Camilabuenamar/Camilabuenamar.github.io/issues"
   },
-  "homepage": "https://github.com/Camilabuenamar/Camilabuenamar.github.io#readme",
+  "homepage": "https://github.com/Camilabuenamar/Camilabuenamar.github.io",
   "dependencies": {
     "@babel/core": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
