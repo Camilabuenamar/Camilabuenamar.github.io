@@ -12,7 +12,7 @@ class Projects extends React.Component {
               <br /> <br />
               <h3 className=" title is-4 has-text-centered">Email Address</h3>
               <div className="buttons is-centered">
-                <a href="mailto:camila.buenamar@gmail.com" className="link-to-contact button is-dark" rel="noopener noreferrer" target="_blank">Camila.buenamar@gmail.com</a>
+                <a href="mailto:camila.buenamar@gmail.com" className="link-to-contact button is-dark" rel="noopener noreferrer">Camila.buenamar@gmail.com</a>
               </div>
               <h3 className="title is-4 has-text-centered">Github</h3>
               <div className="buttons is-centered">
