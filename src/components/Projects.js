@@ -92,8 +92,8 @@ class Projects extends React.Component {
                 <p className="subtitle is-4"><span className="has-text-weight-semibold">Tools: </span> <br /> {this.state.project.tech.map(tech => <div className="tag is-medium" key={tech}> {tech} </div>)} </p>
                 <p className="subtitle is-4">{this.state.project.time}</p>
                 <p className="">
-                  <a  href={this.state.project.github} className="icon is-medium" rel="noopener noreferrer" target="_blank"><img src="https://imgur.com/ObMW98D.png" alt="GithubLogo"/></a>         .
-                  <a  href={this.state.project.link} className="icon is-medium" rel="noopener noreferrer" target="_blank"><img src="https://imgur.com/LoY2chP.png" alt="LinkedLogo"/></a>
+                  <a  href={this.state.project.github} className="icon is-small" rel="noopener noreferrer" target="_blank"><img src="https://imgur.com/ObMW98D.png" alt="GithubLogo"/></a>         .
+                  <a  href={this.state.project.link} className="icon is-small" rel="noopener noreferrer" target="_blank"><img src="https://imgur.com/LoY2chP.png" alt="LinkedLogo"/></a>
                 </p>
               </div>
             </div>
