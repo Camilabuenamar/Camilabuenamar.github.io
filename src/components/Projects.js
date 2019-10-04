@@ -65,7 +65,7 @@ class Projects extends React.Component {
         project = {
           'image': 'https://imgur.com/P4PKrQu.jpg',
           'name': 'ADA',
-          'description': 'A Hiring App for women developers in gender responsible companies.',
+          'description':  '🚧 UNDER CONSTRUCTION. A Hiring App for women developers in gender responsible companies.',
           'tech': ['HTML5', 'CSS', 'Python', 'Django', 'Bulma', 'JavaScript', 'React'],
           'time': '1 week (solo project)',
           'github': 'https://github.com/Camilabuenamar/project-04',
