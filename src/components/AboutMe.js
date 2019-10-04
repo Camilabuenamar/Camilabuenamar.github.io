@@ -37,7 +37,7 @@ class AboutMe extends React.Component {
               </div>
               <div className="column image-column has-text-centered is-two-fifths">
                 <img className="picture" id="camila-picture" src="https://imgur.com/j3Q6Wu0.jpg" />
-                <div><a className="button is-white is-inverted is-outlined" href="../downloaders/cv.pdf" download>CV</a></div>
+                <div><a className="button is-white is-inverted is-outlined" href="../downloaders/BuenaventuraMarquez, Camila -CV-SEP19.pdf" download>CV</a></div>
               </div>
             </div>
           </div>
