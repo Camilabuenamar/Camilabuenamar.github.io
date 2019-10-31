@@ -11,7 +11,7 @@ class AboutMe extends React.Component {
             <p className="title is-1 has-text-centered" id="aboutme">About Me</p>
             <div className="columns">
               <div className="column is-three-fifths">
-                <p className="content text">I am a business graduate who started a women’s empowerment organization in LATAM (Latin America) and this allowed me to further develop my skills in thought leadership. This experience immersed me in women’s representation in technology and the technology itself. I have inspired young women to study within the STEM fields and have challenged myself to study software engineering in the UK. This allowed me to understand the technologies used in tech companies from the operations to the business. Today, my dream is to grow a tech company with my business and tech knowledge and to continue encouraging more women to pursue a career in tech.</p>
+                <p className="content text">I am a business graduate who started a women’s empowerment organization in LATAM (Latin America) and this allowed me to further develop my skills in tough leadership. This experience immersed me in women’s representation in technology and the technology itself. I have inspired young women to study within the STEM fields and have challenged myself to study software engineering in the UK. This allowed me to understand the technologies used in tech companies from the operations to the business. Today, my dream is to grow a tech company with my business and tech knowledge and to continue encouraging more women to pursue a career in tech.</p>
                 <div className="education-info">
                   <div className="title is-6" id="no-bottom-margin">Education:</div>
                   <div className="subtitle is-6" id="education">
@@ -37,7 +37,7 @@ class AboutMe extends React.Component {
               </div>
               <div className="column image-column has-text-centered is-two-fifths">
                 <img className="picture" id="camila-picture" src="https://imgur.com/j3Q6Wu0.jpg" />
-                <div><a className="button is-white is-inverted is-outlined" href="../downloaders/BuenaventuraMarquez, Camila -CV-SEP19.pdf" download>CV</a></div>
+                <div><a className="button is-white is-inverted is-outlined" href="../downloaders/BuenaventuraMarquez, Camila -CV*-OCT19" download>CV</a></div>
               </div>
             </div>
           </div>
